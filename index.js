@@ -27,8 +27,8 @@ app.post("/", (req, res) => {
     });
 
     const mailOptions = {
-        from: process.env.EMAIL,
-        to: body.to,
+        from: 'solucionesprogt@gmail.com',
+        to: 'solucionesprogt@gmail.com',
         subject: body.subject,
         text: body.message
     };
